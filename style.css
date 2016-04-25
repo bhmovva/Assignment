@@ -1,0 +1,29 @@
+body
+{
+	background-color: #000;
+}
+.image
+{
+	background-image: url('images/reptiles.jpg');
+	background-position: center center;
+	background-size: cover;
+	height: 300px;
+}
+#about
+{
+
+}
+#container
+{
+	background-color: #18BC9C;
+	margin: 10px;
+	padding: 10px;
+}
+footer
+{
+	height:	3%;
+	background-color: #233140; 
+	text-align: center;
+	color: #FFF;
+	padding-top: 5%;
+}

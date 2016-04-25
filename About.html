@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+		<meta charset="utf-8">
+		<meta name = 'viewport' content = 'width=device-width, initial-scale=1'>
+		<title> Home </title>
+		<link type="text/css" rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+	</head>
+	<body>
+		<header class = 'image'>
+			<div class = 'container'>
+				<h1>About Me</h1>
+			</div>
+		</header>
+		<!-- About me begins -->
+		<div id = 'container' class = 'container-fluid'>
+			<div class = 'row'>
+				<div id="about" class = 'col-md-6'>
+					<div class="head">
+						ABOUT WEBSITE
+					</div>
+					<p> 
+						Well, this is me, This website was created by me as part of an assignment for the course Web Programming. I had an interest in 
+						computers since high school, not web design specifically but writing logic to solve problems like the fibonacci series
+						seemed more interesting than biology or history to me. Later on, I developed an interest in designing websites since it seemed easy and fun
+						and here I am now. Apart from academics my interests lie in sports, especially soccer. My friends often describe me as a huge foodie.
+					</p>
+					<ul class = 'list-unstyled'> <span style="color: #233140; font-size: 1.2em;">Interests (In no particular order)</span>
+						<li> Front-end Development</li>
+						<li> Programming </li>
+						<li> Food </li>
+						<li> Soccer</li>
+						<li> Outdoors </li>
+					</ul>
+				</div>
+				<div id="contact" class = 'col-md-6'>
+					<div class="head">
+						CONTACT
+					</div>
+					<form name="contact" action="" method="POST" onsubmit="return validate()">
+						<input type="text" class = 'form-control' name="fname" id="firstname" placeholder="Name" maxlength="30">
+						<span class="error" id="error_fname"></span>
+						<br><br>
+						<input type="email" class = 'form-control' name="email" id="mail" placeholder="Email">
+						<span class="error" id="error_email"></span>
+						<br><br>
+						<input type="number" class = 'form-control' name="phone" placeholder="Phone">
+						<br><br>
+						<textarea class = 'form-control' rows="4" cols="50" placeholder="Message"></textarea>
+						<br><br>
+						<input class="btn btn-primary pull-right" type="submit" name="register" value="SEND">
+					</form>	
+				</div>
+			</div>
+		</div>
+		<footer>
+			Design by Movva.
+		</footer>
+	
+</body></html>
